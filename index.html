@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script language="JavaScript">
+      alert("¡Hola Mundo!");
+    </script>
+
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <h1>Mi Primer Programa JavaScript</h1>
+
+    <h1 id="header">Esto es JavaScript</h1>
+    <script>
+      document.body.appendChild(document.createTextNode("Hola Mundo! JS"));
+
+      var h1 = document.getElementById("header"); //contiene la referencia al tag h1
+      h1 = document.getElementsByTagName("h1")[0]; // accediendo al mismo elemento h1
+    </script>
+
+    <noscript>
+      Tu navegador no admite JavaScript, o JavaScript esta
+      deshabilitado.</noscript
+    >
+  </body>
+</html>
